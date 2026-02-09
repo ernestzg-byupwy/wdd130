@@ -194,6 +194,7 @@ footer p {
 
 .contact-info {
     justify-items: center;
+    margin: 1.5rem 0;
 }
 
 #company-info h1,
@@ -263,11 +264,6 @@ input[type="checkbox"] {
     align-self: center;
 }
 
-input[type="checkbox"]:checked {
-    color: #000;
-    background-color: #000;
-}
-
 button {
     padding: 5px;
     background-color: var(--accent1-color);
@@ -280,6 +276,11 @@ button {
 
 #emp-section {
     border: 2px solid rgb(0 0 0 / 20%);
+}
+
+#emp-section h2 {
+    width: 100%;
+    padding: .8rem;
 }
 
 #employees-info {
