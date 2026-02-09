@@ -188,3 +188,112 @@ footer p {
     height: auto;
     margin: 5px;
 }
+
+/* Section for the contact.html page */
+
+.contact-info {
+    justify-items: center;
+}
+
+#company-info h1,
+#company-info address {
+    margin: 1rem;
+    text-align: center;
+    font-style: normal;
+}
+
+#map-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#map {
+    width: 350px;
+    height: 100%;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 10%);
+}
+
+#map-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
+
+.form-item input,
+.form-item textarea {
+    padding: .5rem;
+}
+
+.form-item span,
+label {
+    align-self: center;
+}
+
+#purpose-items {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .5rem;
+}
+
+.message-area {
+    grid-template-columns: 1fr;
+}
+
+#subs-div {
+    grid-template-columns: min-content auto;
+}
+
+input[type="checkbox"] {
+    height: 1rem;
+    margin-right: 10px;
+    justify-self: left;
+    align-self: center;
+}
+
+input[type="checkbox"]:checked {
+    color: #000;
+    background-color: #000;
+}
+
+button {
+    padding: 5px;
+    background-color: var(--accent1-color);
+    border: 2px solid rgb(0 0 0 / 10%);
+    border-radius: .2rem;
+    color: var(--accent2-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#emp-section {
+    border: 2px solid rgb(0 0 0 / 20%);
+}
+
+#employees-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+
+#employees-info figure {
+    width: 15%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#employees-info figure img {
+    width: 100%;
+}
